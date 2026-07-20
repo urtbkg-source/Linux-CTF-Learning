@@ -10,6 +10,8 @@ makes navigating through the computer much easier. It gives more control.
 - UNIX is basically the founding father of all these OS like Linux and in Macbooks. Windows is completely separate
 - Kernel is between hardware and software. Interpreter
 - GNU stands for... GNU's Not Unix. Recursive name! xD. Developed by Richard Stallman that is completely Free Software.
+- Shell is the outer wrapper from the Kernel. You use it, through typing in the terminal\
+
 
 Commands I learned:
 - ls, provides a list of files
@@ -20,3 +22,9 @@ Commands I learned:
 - xev
 - cd, cd /-name-/, cd ..
 - The home (tilde) directory vs root (/) directory
+
+
+OverTheWire:
+- SSH. Didn't understand the wiki page at all, so I actually have to fill in some fundamentals. IPs, ports, the 
+architecture of client-server models.
+- The Diffie-Hellman Key Exchange--basically SSH. Continuing tomorrow after an hour wiki hole I didn't understand
