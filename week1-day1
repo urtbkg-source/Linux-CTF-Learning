@@ -1,0 +1,22 @@
+# Date: July 20, 2026
+
+; Resources used for today:
+- freecodecamp.org
+- OverTheWire.org
+
+Today I learned:
+- The importance of terminal skills. It is a skill expected in almost any tech job. It is faster than the GUI, and 
+makes navigating through the computer much easier. It gives more control.
+- UNIX is basically the founding father of all these OS like Linux and in Macbooks. Windows is completely separate
+- Kernel is between hardware and software. Interpreter
+- GNU stands for... GNU's Not Unix. Recursive name! xD. Developed by Richard Stallman that is completely Free Software.
+
+Commands I learned:
+- ls, provides a list of files
+- pwd, shows current directory
+- clear
+- ls -a, ls -l
+- whoami
+- xev
+- cd, cd /-name-/, cd ..
+- The home (tilde) directory vs root (/) directory
