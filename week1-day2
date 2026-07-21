@@ -29,3 +29,21 @@ Commands I learned:
 16. piping -- |
 --> used to chain commands together. i.e., cat -file1- -file2- | wc
 or, i.e., cat -file1- -file2- >> -file3- | cp  -file-name /home/user/Desktop | wc /home/user/Desktop/-file3-
+
+OverTheWire learnings:
+# Goal: Learn what SSH is, be able to explain its architecture without doubt, use its commands
+- After extensive research, I can declare I undeerstand nothing.
+- I have to study networking, systems, maths, software architecture, before I can understand what the hell SSH is.
+I *will* continue the Linux study, but I am officially replacing OverTheWire with Core Programming, and eventually, 
+Core Math.
+
+
+
+
+
+
+
+
+
+
+
