@@ -1,1 +1,31 @@
-hi
+# Date: July 21, 2026
+
+; Resources used today:
+- freecodeCamp.org
+- OverTheWire.org
+
+Commands I learned:
+1. mkdir -- makes folders/directories
+2. touch -- creates new, empty files. if the file exists, it just updates the timestamp (viewable using ls -l)
+3. rmdir -- removes directories. not files. cant delete directories with contents in them.
+--> rmdir -p: deletes a folder AND all its parent folders. useful for deleting useless nested folders from the inside
+4. rm -- removes files.
+--> rm -r: removes directories and files and anything inside them. 
+--> rm -v: gives the files deleted verbally/written.
+--> rm -i: asks permission before every decision.
+5. open -- opens files or directories in GUI
+6. mv -- moves files into a specified directory. or, renames file. "mv -filename- -directory/rename-"
+7. cp -- copies files into a specified directory
+8. head -- spews out first ten lines of a file. 
+--> head -n takes in number of lines then file name to spew out
+9. tail -- like heads, but starts at the end of the file
+--> tail -f appends the lines spewed out as the file grows. if new content is added, it updates in real time
+10. date -- slef explanatory
+11. redirecting files using > or >>. makes file if the file name doesnt exist. can also add content to empty files.
+12. cat -- concatenates the contents of two files
+13. less -- spews out contents of a file in a separate page
+14. echo -- echo
+15. wc -- prints line, word count, and bytes of anything
+16. piping -- |
+--> used to chain commands together. i.e., cat -file1- -file2- | wc
+or, i.e., cat -file1- -file2- >> -file3- | cp  -file-name /home/user/Desktop | wc /home/user/Desktop/-file3-
