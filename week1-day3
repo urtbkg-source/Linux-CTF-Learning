@@ -1,0 +1,12 @@
+# Date: July 22, 2026
+
+Commands I learned:
+1. sort -> sorts file content or files based on the argument taken. for example, -n takes numbers, -u takes unique elements, and more.
+2. uniq -> provides the contents of a file, but with if an adjacent element is eual, only one is printed out. can be combined with sort and other arguments
+to make sorting really practical
+3. expansions... -> tilde is an expansion. {} creates arrays. i.e., {1..10..2}. * is an arbitrary wild joker. and more like $ etc.
+4. diff -> used to find the difference between two files, and can usually give more context like what was added or removed if you put in the command arguments.
+5. find -> quite the complicated command,  but also an extremely useful one. the structure usually goes something like:
+find -directoryhere- -type or -nmin or -name- -thethingyouwanttofindspecifics- and usually can also be used with other commands, with the -exec option.
+there are loaaads of arguments. man is your best friend but worst enemy
+6. grep -> upgraded version of find. again, man is your best friend. actually very useful and can be combined with find to form powerful searches and stuff. 
