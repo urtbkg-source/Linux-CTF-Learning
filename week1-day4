@@ -1,1 +1,20 @@
+# Date: July 23, 2026
+
+Commands learned:
+1. du -- shows file storage usage. -h makes it human readable. sort -h makes it human readable
+2. df -- estimates file system free space
+3. history -- shows history of commands, can be combined with less, find, or grep to find and run specific commands in
+the past
+--> finding command history and typing !-number- runs the command
+4. ps -- shows current processes being run, as well as the process id time ran
+5. top -- provides extensive information on currently running programs and processes, with loads of data like memory or 
+disk usage
+6. kill -- kills programs. -9 is hard kill -TERM is gentle kill. kill using process ids
+7. killall -- kills programs by name. can be done to kill multiple programs at the same time.
+8. jobs -- shows currrently running commands. 
+9. ctrl z -> suspends programs
+10. fg -> continues programs in the visible terminal
+11. bg -> continues programs in the background
+12. sleep -> provides a pause to programs
+13. & -> put at the end of commands to run them in the background in default
 
