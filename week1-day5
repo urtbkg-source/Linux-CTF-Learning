@@ -1,1 +1,27 @@
 # Date: July 24, 2026
+
+Commands learned today:
+1. gzip -- compresses files into a .gz file using algorithms i dont know about
+--> gzip -d uncompresses a file
+2. gunzip -- decompresses files
+3. tar -- creates archives
+--> flags dictate intent.
+tar -c creates files
+tar -x extracts files from an archive
+tar -f lets you name a file to make into an archive 
+tar -l lists the files in an archive without extracting them
+tar -z allows compression of files without having to use gzip
+4. nano -> really useful command, opens up a text editor for you to open files. creates files if no name matches
+5. alias -> lets you create short hand for useful commands. e.g., alias count = 'echo {1..99}'
+-> put permanent aliases in .bashrc, import using source
+-> '' vs "". the former is situational, the latter is hard fixed
+6. xargs -- an extension of piping, lets you pipe in results as arguments to commands that dont usually work using piping
+7. ln -- lets you create either a hard link or a soft (symbolic) link
+-> a link is a pointer to a file. for example, desktop icons 
+-> hard link: if original file is deleted, hard link remains
+-> ln -s -> soft link: if original file is deleted, symlink is broken
+8. who -> shows current user and log in time
+9. su -- lets you log in into another user in a tab
+-> 'su -' allows you to log in literally into another user
+10. sudo -- allows you to perform root commands 
+11. passwd -- allows you to change or do other stuff with a users password
