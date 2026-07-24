@@ -1,4 +1,7 @@
 # Date: July 24, 2026
+;;;; FINISHED THE COLT STEELE 50 COMMANDS COURSE TODAY
+; Resources used today:
+- freecodeCamp.org -- Colt Steele's 50 commands
 
 Commands learned today:
 1. gzip -- compresses files into a .gz file using algorithms i dont know about
@@ -25,3 +28,6 @@ tar -z allows compression of files without having to use gzip
 -> 'su -' allows you to log in literally into another user
 10. sudo -- allows you to perform root commands 
 11. passwd -- allows you to change or do other stuff with a users password
+12. chown -- chown owner:group filename -- allows you to change the owner or group of a file
+13. chmod -- chmod ugo+-rwx, =, all, file name -- allows you to change permissions of files
+-- learned how permissions work
